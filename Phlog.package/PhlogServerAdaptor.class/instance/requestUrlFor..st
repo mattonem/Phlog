@@ -5,7 +5,7 @@ requestUrlFor: aZincRequest
 	(seasideUrl := WAUrl new)
 		scheme: zincUrl scheme greaseString;
 		host: zincUrl host;
-		port: zincUrl port;
+		port: port;
 		fragment: zincUrl fragment.
 	zincUrl hasPath ifTrue: [ 
 		zincUrl pathSegments do: [ :each |
