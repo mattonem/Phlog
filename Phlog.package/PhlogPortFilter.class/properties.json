@@ -1,0 +1,14 @@
+{
+	"category" : "Phlog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PhlogPortFilter",
+	"pools" : [
+		 ],
+	"super" : "WAConfiguredRequestFilter",
+	"type" : "normal" }
