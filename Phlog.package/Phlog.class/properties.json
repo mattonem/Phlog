@@ -1,0 +1,14 @@
+{
+	"category" : "Phlog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Phlog",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
