@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfPhlog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPhlog",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
