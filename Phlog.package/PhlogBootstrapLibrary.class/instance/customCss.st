@@ -1,0 +1,8 @@
+uploaded
+customCss
+	^ '
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+'

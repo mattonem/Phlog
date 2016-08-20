@@ -1,3 +1,3 @@
 as yet unclassified
 selectorsToInclude
-	^ #(#jQueryJs #tetherJs #bootstrapminCss #bootstrapminJs #autosizeJs)
+	^ #(#jQueryJs #tetherJs #bootstrapminCss #bootstrapminJs #autosizeJs #customCss)
