@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"canBeRoot" : "maxmattone 8/19/2016 21:34",
-		"defaultSetUp" : "maxmattone 8/20/2016 19:11" },
+		"defaultSetUp" : "maxmattone 8/20/2016 20:34" },
 	"instance" : {
-		"renderContentOn:" : "maxmattone 8/20/2016 19:37" } }
+		"initialize" : "maxmattone 8/20/2016 20:06",
+		"renderContentOn:" : "maxmattone 8/20/2016 20:57" } }

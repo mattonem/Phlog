@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"editableText" ],
-	"name" : "Phlog",
+		"string" ],
+	"name" : "PhlogEditableText",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "Object",
 	"type" : "normal" }

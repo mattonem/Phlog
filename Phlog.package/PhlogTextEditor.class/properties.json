@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"editableText" ],
-	"name" : "Phlog",
+	"name" : "PhlogTextEditor",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",

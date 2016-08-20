@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"autogrowJs" : "maxmattone 8/20/2016 20:56",
+		"autosizeJs" : "maxmattone 8/20/2016 21:11",
 		"bootstrapminCss" : "maxmattone 8/20/2016 19:09",
 		"bootstrapminJs" : "maxmattone 8/20/2016 19:01",
-		"selectorsToInclude" : "maxmattone 8/20/2016 19:11" } }
+		"jQueryJs" : "maxmattone 8/20/2016 20:33",
+		"selectorsToInclude" : "maxmattone 8/20/2016 21:03",
+		"tetherJs" : "maxmattone 8/20/2016 20:36" } }
