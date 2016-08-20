@@ -11,4 +11,8 @@ renderContentOn: html
 										url: 'http://book.seaside.st/book/fundamentals/rendering-components';
 										with: 'Dynamic Web Development with Seaside'.
 									html text: '.' ] ] ].
-			html card: [ html cardBlock: [ html render: editableText ] ] ]
+			editableCollection
+				do: [ :aNews | html card: [ html cardBlock: [ html render: aNews ] ] ].
+			html anchor
+				callback: [ newsCollection add: PhlogNews new. self updateEditables ];
+				with: 'add' ]

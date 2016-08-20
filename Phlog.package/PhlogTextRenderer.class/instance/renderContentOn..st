@@ -1,7 +1,6 @@
 as yet unclassified
 renderContentOn: html
-	(editableText string findTokens:
-(String with: Character cr with: Character lf) )
+	(editableText text findTokens: (String with: Character cr with: Character lf))
 		do: [ :para | 
 			para first = $#
 				ifTrue: [ html heading: (para trimLeft: [ :char | char = $# ]) ]

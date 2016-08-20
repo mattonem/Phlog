@@ -1,0 +1,3 @@
+accessing
+text
+	^ news text

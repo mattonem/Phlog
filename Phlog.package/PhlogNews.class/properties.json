@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"newsCollection" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"editableText",
-		"textRenderer",
-		"editableCollection" ],
-	"name" : "Phlog",
+		"text" ],
+	"name" : "PhlogNews",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "Object",
 	"type" : "normal" }
