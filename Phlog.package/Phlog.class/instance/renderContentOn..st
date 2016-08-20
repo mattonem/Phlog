@@ -4,15 +4,15 @@ renderContentOn: html
 		container: [ html
 				card: [ html cardImgTop url: 'http://www.seaside.st/styles/logo-plain.png'.
 					html
-						cardBlock: [ html heading: self requestContext request url.
+						cardBlock: [ html paragraph: self requestContext request url.
 							html
 								paragraph: [ html text: 'To learn more about Seaside components follow the link to the book: '.
 									html anchor
 										url: 'http://book.seaside.st/book/fundamentals/rendering-components';
 										with: 'Dynamic Web Development with Seaside'.
 									html text: '.' ] ] ].
-			editableCollection
-				do: [ :aNews | html card: [ html cardBlock: [ html render: aNews ] ] ].
+			editableCollection do: [ :aNews | html render: aNews ].
 			html anchor
-				callback: [ newsCollection add: PhlogNews new. self updateEditables ];
+				callback: [ newsCollection add: PhlogNews new.
+					self updateEditables ];
 				with: 'add' ]
