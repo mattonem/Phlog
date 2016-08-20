@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"string" ],
+		"string",
+		"editMode" ],
 	"name" : "PhlogEditableText",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WAComponent",
 	"type" : "normal" }

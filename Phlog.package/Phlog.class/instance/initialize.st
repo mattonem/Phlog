@@ -1,5 +1,4 @@
 rendering
 initialize
 	super initialize.
-	editableText := PhlogEditableText new.
-	editableText string: 'text'
+	editableText := PhlogEditableText new string: 'coucou'
