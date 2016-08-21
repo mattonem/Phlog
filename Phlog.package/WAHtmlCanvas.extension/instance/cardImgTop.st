@@ -1,3 +1,3 @@
 *Phlog
 cardImgTop
-	^ (self brush: WAImageTag new) class: 'card-img-top img-fluid'
+	^ self imageFluid class: 'card-img-top'

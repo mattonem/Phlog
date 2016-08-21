@@ -2,7 +2,7 @@ as yet unclassified
 renderFirstImageOn: html
 	| args |
 	args := mkLines first findBetweenSubstrings: '![]()'.
-	html image
+	html cardImgTop
 		class: 'img-fluid';
 		altText: (args at: 1);
 		url: (args at: 2).
