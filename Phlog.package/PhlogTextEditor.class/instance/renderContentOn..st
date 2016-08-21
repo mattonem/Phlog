@@ -4,12 +4,7 @@ renderContentOn: html
 		card: [ html
 				cardBlock: [ html
 						form: [ html
-								formGroup: [ html textInput
-										value: editableText imageUrl;
-										class: 'form-control';
-										callback: [ :value | 
-											editableText imageUrl: value.
-											editableText editMode: false ].
+								formGroup: [ 
 									html textArea
 										value: editableText text;
 										class: 'form-control';
