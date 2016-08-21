@@ -12,16 +12,6 @@ renderContentOn: html
 						url: 'http://book.seaside.st/book/fundamentals/rendering-components';
 						with: 'Dynamic Web Development with Seaside'.
 					html text: '.' ].
-			selected ifNil: [ editableCollection reverseDo: [ :aNews | html render: aNews ] ] ifNotNil: [ html render: selected ].
-			html anchor
-				callback: [ | newNews |
-					newNews := newsCollection add: PhlogEditableContent new.
-					self
-						selected:
-							(editableCollection
-								add:
-									(PhlogEditableText new
-										news: newNews;
-										selectionCallBack: self;
-										editMode: true)) ];
-				with: 'add' ]
+			html render: content	
+			].
+		

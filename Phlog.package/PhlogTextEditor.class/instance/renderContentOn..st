@@ -6,11 +6,10 @@ renderContentOn: html
 						form: [ html
 								formGroup: [ 
 									html textArea
-										value: editableText text;
+										value: editableContent text;
 										class: 'form-control';
 										callback: [ :value | 
-											editableText text: value.
-											editableText editMode: false.
-											editableText getUnselected ].
+											editableContent text: value.
+											callback unselect ].
 									html break.
 									html submitButton class: 'btn btn-primary' ] ] ] ]

@@ -1,3 +1,3 @@
 rendering
 children
-	^ Array withAll: editableCollection
+	^ super children asOrderedCollection add: content; yourself

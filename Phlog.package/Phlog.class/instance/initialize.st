@@ -1,4 +1,4 @@
 rendering
 initialize
 	super initialize.
-	self updateEditables
+	self initContent

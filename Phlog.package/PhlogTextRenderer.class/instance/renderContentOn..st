@@ -1,6 +1,6 @@
 as yet unclassified
 renderContentOn: html
-	mkLines := editableText text findTokens: (String with: Character cr with: Character lf).
+	mkLines := editableContent text findTokens: (String with: Character cr with: Character lf).
 	html
 		card: [ (mkLines notEmpty and: [ self isImage: mkLines first ])
 				ifTrue: [ self renderFirstImageOn: html ].
@@ -8,12 +8,11 @@ renderContentOn: html
 			html
 				cardBlock: [ html anchor
 						class: 'card-link small';
-						callback: [ editableText getSelected ];
+						callback: [ callback selected: editableContent  ];
 						with: 'view'.
 					html anchor
 						class: 'card-link small';
-						callback: [ editableText getSelected.
-							editableText editMode: true ];
+						callback: [ callback edit: editableContent ];
 						with: 'edit'.
 					html anchor
 						class: 'card-link small';

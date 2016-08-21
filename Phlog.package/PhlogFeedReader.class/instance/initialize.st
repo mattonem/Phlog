@@ -1,0 +1,3 @@
+rendering
+initialize
+	super initialize.

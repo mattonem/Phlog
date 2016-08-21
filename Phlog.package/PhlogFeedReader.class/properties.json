@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"news",
-		"editMode",
-		"selectionCallBack" ],
-	"name" : "PhlogEditableText",
+		"newsCollection",
+		"editableCollection",
+		"selectionCallback" ],
+	"name" : "PhlogFeedReader",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",

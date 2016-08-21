@@ -1,0 +1,3 @@
+rendering
+unselect
+	self initContent

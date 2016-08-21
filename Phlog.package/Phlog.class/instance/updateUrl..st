@@ -1,5 +1,5 @@
 rendering
 updateUrl: aUrl
 	super updateUrl: aUrl.
-	self selected ifNotNil: [ aUrl addToPath: (editableCollection indexOf: self selected) asString  ]
+	self selected ifNotNil: [ aUrl addToPath: (newsCollection indexOf: self selected) asString  ]
 	

@@ -5,13 +5,13 @@
 		"initialize" : "maxmattone 8/21/2016 11:45",
 		"newsCollection" : "maxmattone 8/21/2016 13:08" },
 	"instance" : {
-		"children" : "maxmattone 8/21/2016 11:50",
-		"initialRequest:" : "maxmattone 8/21/2016 15:49",
-		"initialize" : "maxmattone 8/21/2016 12:28",
-		"initializeOn:" : "maxmattone 8/21/2016 12:24",
-		"remove:" : "maxmattone 8/21/2016 13:10",
-		"renderContentOn:" : "maxmattone 8/21/2016 15:45",
+		"children" : "maxmattone 8/21/2016 23:39",
+		"edit:" : "maxmattone 8/21/2016 23:57",
+		"initContent" : "maxmattone 8/21/2016 23:58",
+		"initialRequest:" : "maxmattone 8/21/2016 23:34",
+		"initialize" : "maxmattone 8/21/2016 23:58",
+		"renderContentOn:" : "maxmattone 8/21/2016 23:42",
 		"selected" : "maxmattone 8/21/2016 12:36",
-		"selected:" : "maxmattone 8/21/2016 12:37",
-		"updateEditables" : "maxmattone 8/21/2016 12:44",
-		"updateUrl:" : "maxmattone 8/21/2016 12:35" } }
+		"selected:" : "maxmattone 8/21/2016 23:59",
+		"unselect" : "maxmattone 8/21/2016 23:59",
+		"updateUrl:" : "maxmattone 8/21/2016 23:33" } }

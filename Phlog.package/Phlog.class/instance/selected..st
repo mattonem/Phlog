@@ -1,3 +1,5 @@
 rendering
-selected: anEditable
-	selected := anEditable
+selected: aNews
+	content := PhlogTextRenderer new
+										editableContent:  aNews;
+										callback: self.

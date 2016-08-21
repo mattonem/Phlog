@@ -6,10 +6,7 @@
 		"newsCollection" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"editableText",
-		"textRenderer",
-		"editableCollection",
-		"dispatcher",
+		"content",
 		"selected" ],
 	"name" : "Phlog",
 	"pools" : [
