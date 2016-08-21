@@ -15,6 +15,7 @@ renderContentOn: html
 										class: 'form-control';
 										callback: [ :value | 
 											editableText text: value.
-											editableText editMode: false ].
+											editableText editMode: false.
+											editableText getUnselected ].
 									html break.
 									html submitButton class: 'btn btn-primary' ] ] ] ]

@@ -8,7 +8,7 @@
 	"instvars" : [
 		"image",
 		"text" ],
-	"name" : "PhlogNews",
+	"name" : "PhlogEditableContent",
 	"pools" : [
 		 ],
 	"super" : "Object",

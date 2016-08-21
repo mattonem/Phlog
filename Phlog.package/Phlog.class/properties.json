@@ -8,7 +8,9 @@
 	"instvars" : [
 		"editableText",
 		"textRenderer",
-		"editableCollection" ],
+		"editableCollection",
+		"dispatcher",
+		"selected" ],
 	"name" : "Phlog",
 	"pools" : [
 		 ],

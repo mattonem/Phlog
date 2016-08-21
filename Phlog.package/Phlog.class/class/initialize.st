@@ -1,4 +1,4 @@
 as yet unclassified
 initialize
 	newsCollection := OrderedCollection new.
-	newsCollection add: (PhlogNews new text: 'hello')
+	newsCollection add: (PhlogEditableContent new text: 'hello')

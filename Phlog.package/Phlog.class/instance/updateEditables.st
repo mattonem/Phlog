@@ -1,4 +1,4 @@
 rendering
 updateEditables
 	editableCollection := newsCollection
-		collect: [ :aNews | PhlogEditableText new news: aNews ]
+		collect: [ :aNews | PhlogEditableText new news: aNews; selectionCallBack: self ]
