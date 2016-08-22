@@ -3,9 +3,9 @@ requestUrlFor: aZincRequest
 	| zincUrl seasideUrl |
 	zincUrl := aZincRequest absoluteUrl.
 	(seasideUrl := WAUrl new)
-		scheme: zincUrl scheme greaseString;
+		scheme: (self schemeForPort: port);
 		host: zincUrl host;
-		port: port;
+		port: (self proxiedPort: port);
 		fragment: zincUrl fragment.
 	zincUrl hasPath ifTrue: [ 
 		zincUrl pathSegments do: [ :each |
