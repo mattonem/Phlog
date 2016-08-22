@@ -7,7 +7,10 @@ $(window).scroll(function(i){
    $(''.top-image'').css({''opacity'':opacity});
 });
 $(window).ready(function() {
-  $(''.top-image-margin'').height($(''.top-image'').height() - 200)
+  $(".top-image-margin").height($(".top-image").height() - (0.2 * $(".top-image").height()))
+});
+$(".top-image").on("load",function() {
+  $(".top-image-margin").height($(".top-image").height() - (0.2 * $(".top-image").height()))
 });
 $(window).resize(function() {
   $(''.top-image-margin'').height($(''.top-image'').height() - 200)
