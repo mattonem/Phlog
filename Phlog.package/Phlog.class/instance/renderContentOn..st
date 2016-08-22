@@ -1,7 +1,7 @@
 rendering
 renderContentOn: html
 	html image
-		url: PhlogBootstrapLibrary / #ArbcJpg;
+		url: PhlogLibrary / #ArbcJpg;
 		class: 'top-image'.
 	html div class: 'log top-image-margin'.
 	html
