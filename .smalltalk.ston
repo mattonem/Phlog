@@ -2,8 +2,8 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Phlog',
-      #directory : 'github://mattonem/Phlog:mattonem-patch-1',
+      #directory : '.',
       #platforms : [ #pharo ]
-    }
+    },
   ]
 }
