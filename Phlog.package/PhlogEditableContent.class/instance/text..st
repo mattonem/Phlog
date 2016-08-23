@@ -1,4 +1,5 @@
 accessing
 text: anObject
 	text := anObject.
-	self store
+	storingFile ifNotNil: [  
+	self store]
