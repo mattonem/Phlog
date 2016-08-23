@@ -1,0 +1,15 @@
+{
+	"category" : "Phlog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"collection",
+		"storeDirectory" ],
+	"name" : "PhlogFeedCollection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
