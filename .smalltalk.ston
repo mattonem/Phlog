@@ -3,6 +3,6 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'Phlog',
       #platforms : [ #pharo ]
-    },
+    }
   ]
 }
