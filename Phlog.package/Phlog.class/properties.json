@@ -6,8 +6,7 @@
 		"newsCollection" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"content",
-		"selected" ],
+		"content" ],
 	"name" : "Phlog",
 	"pools" : [
 		 ],
