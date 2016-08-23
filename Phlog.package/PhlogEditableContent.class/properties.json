@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"text" ],
+		"text",
+		"creationTime",
+		"storingDirectory",
+		"storingFile" ],
 	"name" : "PhlogEditableContent",
 	"pools" : [
 		 ],

@@ -1,4 +1,5 @@
 accessing
 initialize
 	super initialize.
-	text := ''.
+	creationTime := DateAndTime now.
+	text := ''
