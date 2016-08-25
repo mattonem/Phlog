@@ -1,7 +1,7 @@
 rendering
 renderContentOn: html
 	
-			editableCollection reverseDo: [ :aNews | html render: aNews ].
+			editableCollection feedReverseDo: [ :aNews | html render: aNews ].
 			html anchor
 				callback: [ | newNews |
 					newNews := newsCollection newContent.
