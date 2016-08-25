@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"body" ],
-	"name" : "PhlogTest",
+		 ],
+	"name" : "PhlogFeedCollectionTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

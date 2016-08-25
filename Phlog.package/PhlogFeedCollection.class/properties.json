@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"text",
-		"creationTime",
-		"storingDirectory",
-		"storingFile" ],
-	"name" : "PhlogEditableContent",
+		"collection",
+		"storeDirectory" ],
+	"name" : "PhlogFeedCollection",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -1,4 +1,4 @@
 as yet unclassified
 initialize
-	newsCollection := OrderedCollection new.
-	newsCollection add: (PhlogEditableContent new text: 'hello')
+	newsCollection := PhlogFeedCollection on: FileSystem workingDirectory / '..' / 'data'.
+	newsCollection newContent text: 'coucou'.

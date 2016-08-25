@@ -1,0 +1,1 @@
+A PhlogFeedCollectionTest is a test class for testing the behavior of PhlogFeedCollection
