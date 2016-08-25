@@ -11,13 +11,13 @@ function initTopImageOffset() {
     setTimeout(function() { i++; if (i < n) { initTopImageOffset(); } }, 50);
     console.log(''initloop'');
     return};
-  $(".top-image-margin").height($(".top-image").height() - (0.2 * $(".top-image").height()))
+  $(".top-image-margin").height($(".top-image").height() * 0.8)
 };
 $(document).ready(function() {
   initTopImageOffset();
 });
 $(window).resize(function() {
-  $(''.top-image-margin'').height($(''.top-image'').height() - 200)
+  initTopImageOffset();
 });
 $(document).ready(function(){
   $.adaptiveBackground.run();
