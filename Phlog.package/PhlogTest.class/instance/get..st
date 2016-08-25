@@ -1,3 +1,6 @@
 as yet unclassified
 get: host
-	^ Soup fromString: (ZnEasy get: host) contents
+	|res|
+	res := (ZnEasy get: host) contents.
+	self log: res.
+	^ Soup fromString: res
