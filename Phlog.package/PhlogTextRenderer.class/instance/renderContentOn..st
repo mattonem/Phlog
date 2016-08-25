@@ -5,7 +5,7 @@ renderContentOn: html
 			html
 				cardBlock: [ html anchor
 						class: 'card-link small';
-						callback: [ callback selected: editableContent ];
+						url: (self session url addToPath: editableContent key asString);
 						with: 'view'.
 					html anchor
 						class: 'card-link small';
