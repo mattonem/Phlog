@@ -4,6 +4,9 @@ testBasic
 	collection := PhlogFeedCollection on: FileSystem workingDirectory / 'test-collection'.
 	content := collection newContent.
 	content text: '1234'.
+	content := collection newContent.
+	content text: '3456'.
+	
 	collection storeAllContent.
 	collection2 := PhlogFeedCollection on: FileSystem workingDirectory / 'test-collection'.
-	self assert: collection2 contentCount equals: 1
+	self assert: collection2 contentCount equals: 2
