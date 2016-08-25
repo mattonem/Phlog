@@ -9,12 +9,14 @@ $(window).scroll(function(i){
 function initTopImageOffset() {
   if($(".top-image-margin").height == 0){
     setTimeout(function() { i++; if (i < n) { initTopImageOffset(); } }, 50);
+    console.log('initloop');
     return};
   $(".top-image-margin").height($(".top-image").height() - (0.2 * $(".top-image").height()))
 };
 $(window).ready(function() {
   $(".top-image").on("load",function() {
-    initTopImage();
+    initTopImageOffset();
+    console.log('initInit');
   });
 });
 $(window).resize(function() {
