@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"callback:" : " 8/25/2016 17:45:55",
-		"dispatchLineOn:" : " 8/25/2016 17:45:55",
+		"callback:" : "8/25/2016 17:45:55",
+		"dispatchLineOn:" : "8/25/2016 17:45:55",
 		"editableContent" : "maxmattone 8/25/2016 18:32",
-		"editableContent:" : " 8/25/2016 17:45:55",
-		"editableText:" : " 8/25/2016 17:45:55",
-		"isImage:" : " 8/25/2016 17:45:55",
-		"isText:" : " 8/25/2016 17:45:55",
+		"editableContent:" : "8/25/2016 17:45:55",
+		"editableText:" : "8/25/2016 17:45:55",
+		"isImage:" : "8/25/2016 17:45:55",
+		"isText:" : "8/25/2016 17:45:55",
 		"renderContentOn:" : "maxmattone 8/25/2016 19:12",
 		"renderEditableContentOn:" : "maxmattone 8/25/2016 19:12",
-		"renderFirstImageOn:" : " 8/25/2016 17:45:55",
-		"renderImageOn:" : " 8/25/2016 17:45:55",
-		"renderInCodeBlockOn:" : " 8/25/2016 17:45:55",
-		"renderTextOn:" : " 8/25/2016 17:45:55" } }
+		"renderFirstImageOn:" : "8/25/2016 17:45:55",
+		"renderImageOn:" : "8/25/2016 17:45:55",
+		"renderInCodeBlockOn:" : "8/25/2016 17:45:55",
+		"renderTextOn:" : "8/25/2016 17:45:55" } }
