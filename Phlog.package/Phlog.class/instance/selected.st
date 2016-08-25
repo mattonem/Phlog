@@ -1,3 +1,3 @@
 rendering
 selected
-	^ content
+	^ (content isKindOf: PhlogFeedReader) not
