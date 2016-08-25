@@ -14,10 +14,7 @@ function initTopImageOffset() {
   $(".top-image-margin").height($(".top-image").height() - (0.2 * $(".top-image").height()))
 };
 $(document).ready(function() {
-  $(".top-image").on("load",function() {
-    initTopImageOffset();
-    console.log(''initInit'');
-  });
+  initTopImageOffset();
 });
 $(window).resize(function() {
   $(''.top-image-margin'').height($(''.top-image'').height() - 200)
