@@ -13,7 +13,7 @@ function initTopImageOffset() {
     return};
   $(".top-image-margin").height($(".top-image").height() - (0.2 * $(".top-image").height()))
 };
-$(window).ready(function() {
+$(document).ready(function() {
   $(".top-image").on("load",function() {
     initTopImageOffset();
     console.log(''initInit'');
