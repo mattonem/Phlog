@@ -5,11 +5,17 @@ renderContentOn: html
 		class: 'top-image'.
 	html div class: 'log top-image-margin'.
 	html
-		container: [ html paragraph: self requestContext request url.
-			html
-				paragraph: [ html text: 'To learn more about Seaside components follow the link to the book: '.
-					html anchor
-						url: 'http://book.seaside.st/book/fundamentals/rendering-components';
-						with: 'Dynamic Web Development with Seaside'.
-					html text: '.' ].
+		container: [ html navigation
+				style: 'margin-bottom: 10px';
+				class: 'navbar navbar-light bg-faded';
+				with: [ html div
+						class: 'nav navbar-nav';
+						with: [ html anchor
+								class: 'nav-item nav-link active';
+								url: (self session url parsePath: '/phlog');
+								with: 'News'.
+							html anchor
+								class: 'nav-item nav-link';
+								url: (self session url parsePath: '/about');
+								with: 'About' ] ].
 			html render: content ]
