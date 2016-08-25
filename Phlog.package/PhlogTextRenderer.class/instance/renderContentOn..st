@@ -16,5 +16,5 @@ renderContentOn: html
 						with: 'edit'.
 					html anchor
 						class: 'card-link small';
-						callback: [ editableText remove ];
+						callback: [ callback remove: editableContent ];
 						with: 'remove' ] ]
