@@ -1,3 +1,3 @@
 catagory
-collect: aBloc
+collect: aBlock
   ^ collection collect: aBlock 
