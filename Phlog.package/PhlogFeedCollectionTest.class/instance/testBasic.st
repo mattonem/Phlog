@@ -4,6 +4,7 @@ testBasic
 	collection := PhlogFeedCollection on: FileSystem workingDirectory / 'test-collection'.
 	content := collection newContent.
 	content text: '1234'.
+	2 second wait.
 	content := collection newContent.
 	content text: '3456'.
 	
