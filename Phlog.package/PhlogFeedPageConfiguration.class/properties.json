@@ -3,13 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"aboutCollection",
-		"newsCollection" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Phlog",
+	"name" : "PhlogFeedPageConfiguration",
 	"pools" : [
 		 ],
-	"super" : "WAApplication",
+	"super" : "WASystemConfiguration",
 	"type" : "normal" }

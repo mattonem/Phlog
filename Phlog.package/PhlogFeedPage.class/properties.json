@@ -1,15 +1,15 @@
 {
-	"category" : "Phlog",
+	"category" : "Phlog-SeasideComponent",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"aboutCollection",
-		"newsCollection" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "Phlog",
+		"feed",
+		"content" ],
+	"name" : "PhlogFeedPage",
 	"pools" : [
 		 ],
-	"super" : "WAApplication",
+	"super" : "WAComponent",
 	"type" : "normal" }

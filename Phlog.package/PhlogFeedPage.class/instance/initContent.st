@@ -1,6 +1,6 @@
 rendering
 initContent
-	newsCollection updateContentCollection.
+	feed updateContentCollection.
 	content := PhlogFeedReader new
-		newsCollection: newsCollection;
+		newsCollection: feed;
 		selectionCallback: self
