@@ -7,9 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"feed",
-		"content",
-		"navbar" ],
-	"name" : "PhlogFeedPage",
+		"content" ],
+	"name" : "PhlogNavBar",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",

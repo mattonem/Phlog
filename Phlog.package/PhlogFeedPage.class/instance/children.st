@@ -1,3 +1,6 @@
 rendering
 children
-	^ super children asOrderedCollection add: content; yourself
+	^ super children asOrderedCollection
+		add: content;
+		add: navbar;
+		yourself
