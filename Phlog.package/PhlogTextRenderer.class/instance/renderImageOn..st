@@ -6,4 +6,4 @@ renderImageOn: html
 	html imageFluid
 		altText: (args at: 1);
 		url: (args at: 2).
-	mkLines remove: currentLine
+	mkLines remove: currentLine.
