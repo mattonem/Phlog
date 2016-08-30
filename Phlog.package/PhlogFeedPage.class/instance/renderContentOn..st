@@ -5,17 +5,5 @@ renderContentOn: html
 		class: 'top-image'.
 	html div class: 'log top-image-margin'.
 	html
-		container: [ html navigation
-				style: 'margin-bottom: 10px';
-				class: 'navbar navbar-light bg-faded';
-				with: [ html div
-						class: 'nav navbar-nav';
-						with: [ html anchor
-								class: 'nav-item nav-link active';
-								url: (self session url parsePath: '/phlog');
-								with: 'News'.
-							html anchor
-								class: 'nav-item nav-link';
-								url: (self session url parsePath: '/about');
-								with: 'About' ] ].
+		container: [ html render: navbar..
 			html render: content ]
