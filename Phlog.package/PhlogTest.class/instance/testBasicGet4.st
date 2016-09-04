@@ -1,7 +1,7 @@
 as yet unclassified
 testBasicGet4
 	| req anchors edit req2 host |
-	host := 'http://localhost:8443/admin/phlog'.
+	host := 'http://admin:password@localhost:8443/admin/phlog'.
 	self addNews.
 	req := self get: host.
 	anchors := ((req findAllTagsByClass: 'card') at: 1) findAllTags: 'a'.
