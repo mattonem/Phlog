@@ -1,7 +1,7 @@
 as yet unclassified
 addNews
 	| host req nbNews anchors add req2 |
-	host := 'http://localhost:8080/phlog'.
+	host := 'http://localhost:8443/admin/phlog'.
 	req := self get: host.
 	nbNews := (req findAllTagsByClass: 'card') size.
 	anchors := req findAllTags: 'a'.
