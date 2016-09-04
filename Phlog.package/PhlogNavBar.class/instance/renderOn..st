@@ -1,6 +1,5 @@
 as yet unclassified
 renderOn: html
-	html paragraph: (self application parent basicUrl asString , '/phlog').
 	html navigation
 		style: 'margin-bottom: 10px';
 		class: 'navbar navbar-light bg-faded';

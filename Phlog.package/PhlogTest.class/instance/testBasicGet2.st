@@ -1,7 +1,7 @@
 as yet unclassified
 testBasicGet2
 	| req anchors req2 host remove |
-	host := 'http://localhost:8080/phlog'.
+	host := 'http://localhost:8443/admin/phlog'.
 	self addNews.
 	req := self get: host.
 	self assert: (self nbCard: req) equals: 1.
