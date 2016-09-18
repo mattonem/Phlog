@@ -2,7 +2,7 @@ as yet unclassified
 renderImageOn: html
 	| currentLine args |
 	currentLine := mkLines first.
-	args := currentLine findBetweenSubstrings: '![]()'.
+	args := currentLine findBetweenSubStrs: '![]()'.
 	html imageFluid
 		altText: (args at: 1);
 		url: (args at: 2).
