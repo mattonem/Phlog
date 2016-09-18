@@ -1,3 +1,3 @@
 as yet unclassified
 isImage: currentLine
-	^ currentLine first = $! and: [ (currentLine findBetweenSubStrs: '![]()') size = 2 ]
+	^ currentLine first = $! and: [ (currentLine findBetweenSubstrings: '![]()') size = 2 ]
