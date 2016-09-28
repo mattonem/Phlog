@@ -7,6 +7,7 @@ baseline: spec
 				baseline: 'Seaside3'
 				with: [ spec repository: 'github://SeasideSt/Seaside:master/repository' ].
 			spec project: 'Soup' with: #stable.
+			spec project: 'PetitParser' with: #stable.
 			spec
 				project: 'Soup'
 				with: [ spec
