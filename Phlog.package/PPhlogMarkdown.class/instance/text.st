@@ -1,3 +1,3 @@
 grammar
 text 
-	^ #newline asParser negate star ==> [ :node | PMdString from: node ]
+	^ #newline asParser negate plus ==> [ :node | PMdString from: node ]

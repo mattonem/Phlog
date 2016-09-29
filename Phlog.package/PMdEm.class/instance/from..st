@@ -1,3 +1,3 @@
 as yet unclassified
 from: aCollection
-	string := aCollection at: 2
+	string := String newFrom: (aCollection at: 2)
