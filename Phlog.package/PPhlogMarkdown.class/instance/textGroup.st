@@ -1,4 +1,4 @@
 grammar
 textGroup
 	^ 
-		((image not ,( title/paragraph) separatedBy: #newline asParser) )withoutSeparators ==> [ :node | PMdTextGroup from: ( node collect: #second )  ]
+		((image not ,( title/paragraph) separatedBy: (#newline asParser plus)) )withoutSeparators ==> [ :node | PMdTextGroup from: ( node collect: #second )  ]
