@@ -9,7 +9,8 @@
 		"editableText",
 		"mkLines",
 		"editableContent",
-		"callback" ],
+		"callback",
+		"result" ],
 	"name" : "PhlogTextRenderer",
 	"pools" : [
 		 ],

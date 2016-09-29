@@ -1,3 +1,3 @@
 grammar
 document
-	^  (title/image/paragraph) separatedBy: #newline asParser
+	^  ((textGroup/image) separatedBy: #newline asParser ) withoutSeparators ==> [ :node | PMdDocument from: node ]

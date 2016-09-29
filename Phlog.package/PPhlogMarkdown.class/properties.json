@@ -13,7 +13,8 @@
 		"url",
 		"altText",
 		"em",
-		"text" ],
+		"text",
+		"textGroup" ],
 	"name" : "PPhlogMarkdown",
 	"pools" : [
 		 ],

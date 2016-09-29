@@ -9,3 +9,4 @@ testRenderBadImage
 		rootClass: WAHtmlRoot;
 		fullDocument: false;
 		render: [ :html | renderer renderEditableContentOn: html ].
+	self assert: aString equals: '<div class="card-block"><p>paragraph</p><p>!(imageurl]</p></div>'
