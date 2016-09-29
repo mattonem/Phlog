@@ -1,3 +1,3 @@
 grammar
 altText
-	^ (#space asParser / $] asParser) negate star ==> [ :node | PMdString from: node ]
+	^ (#newline asParser / $] asParser) negate star ==> [ :node | PMdString from: node ]
