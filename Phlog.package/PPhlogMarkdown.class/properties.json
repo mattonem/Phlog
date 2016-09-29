@@ -1,0 +1,22 @@
+{
+	"category" : "Phlog-Markdown",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"document",
+		"paragraph",
+		"title",
+		"image",
+		"url",
+		"altText",
+		"em",
+		"text",
+		"textGroup" ],
+	"name" : "PPhlogMarkdown",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }

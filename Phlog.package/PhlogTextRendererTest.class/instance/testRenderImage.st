@@ -1,7 +1,7 @@
 as yet unclassified
 testRenderImage
 	| aString aContent renderer |
-	aContent := PhlogEditableContent new text: 'paragraph' , Character cr asString , '!(image)[url]'.
+	aContent := PhlogEditableContent new text: 'paragraph' , Character cr asString , '![image](url)'.
 	renderer := PhlogTextRenderer new editableContent: aContent.
 	aString := WAHtmlCanvas builder
 		documentClass: WAHtmlDocument;
