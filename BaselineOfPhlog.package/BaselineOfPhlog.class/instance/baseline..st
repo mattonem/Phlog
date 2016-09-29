@@ -4,8 +4,11 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'Seaside3'
-				with: [ spec repository: 'github://SeasideSt/Seaside:master/repository' ].
+				project: 'Seaside3'
+				with: [ spec 
+					className: 'ConfigurationOfSeaside3';
+					repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ;
+					versionString: '3.1.3' ].
 			spec project: 'Soup' with: #stable.
 			spec
 				project: 'Soup'
