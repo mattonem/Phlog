@@ -2,10 +2,11 @@
 	"class" : {
 		"aboutCollection" : "maxmattone 9/18/2016 18:26:21",
 		"defaultSetUp" : "maxmattone 9/18/2016 18:26:21",
-		"feeds" : "maxmattone 9/18/2016 18:26:21",
-		"initialize" : "maxmattone 9/18/2016 18:26:21",
-		"installAdminPhlogOnRoot:" : "maxmattone 9/18/2016 18:26:21",
-		"installPhlogOnRoot:" : "maxmattone 9/18/2016 18:26:21",
+		"feeds" : "maxmattone 10/1/2016 16:18",
+		"friendsCollection" : "maxmattone 10/1/2016 16:18",
+		"initialize" : "maxmattone 10/1/2016 16:21",
+		"installAdminPhlogOnRoot:" : "maxmattone 10/1/2016 16:23",
+		"installPhlogOnRoot:" : "maxmattone 10/1/2016 16:20",
 		"newsCollection" : "maxmattone 9/18/2016 18:26:21" },
 	"instance" : {
 		 } }

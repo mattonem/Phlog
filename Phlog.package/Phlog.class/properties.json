@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"aboutCollection",
+		"friendsCollection",
 		"newsCollection" ],
 	"commentStamp" : "",
 	"instvars" : [
