@@ -14,7 +14,8 @@
 		"altText",
 		"em",
 		"text",
-		"textGroup" ],
+		"textGroup",
+		"strong" ],
 	"name" : "PPhlogMarkdown",
 	"pools" : [
 		 ],
