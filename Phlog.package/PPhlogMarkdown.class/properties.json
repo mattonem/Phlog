@@ -15,7 +15,8 @@
 		"em",
 		"text",
 		"textGroup",
-		"strong" ],
+		"strong",
+		"anchor" ],
 	"name" : "PPhlogMarkdown",
 	"pools" : [
 		 ],

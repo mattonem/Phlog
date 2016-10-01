@@ -1,0 +1,15 @@
+{
+	"category" : "Phlog-Markdown",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"altText",
+		"url" ],
+	"name" : "PMdAnchor",
+	"pools" : [
+		 ],
+	"super" : "PMdElement",
+	"type" : "normal" }

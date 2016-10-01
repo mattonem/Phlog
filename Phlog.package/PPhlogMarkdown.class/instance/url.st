@@ -1,3 +1,3 @@
 grammar
 url
-	^ (#space asParser / $) asParser) negate star ==> [ :node | PMdString from: node ]
+	^ (#space asParser / $) asParser) negate star flatten ==> [ :node | PMdString from: node ]
