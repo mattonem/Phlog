@@ -1,3 +1,3 @@
 grammar
 paragraph
-	^ (strong/em/text) star ==> [ :node | PMdParagraph from: node ]
+	^ (anchor/strong/em/text) star ==> [ :node | PMdParagraph from: node ]
