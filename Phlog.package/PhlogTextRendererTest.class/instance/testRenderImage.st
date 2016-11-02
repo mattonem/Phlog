@@ -8,4 +8,4 @@ testRenderImage
 		rootClass: WAHtmlRoot;
 		fullDocument: false;
 		render: [ :html | renderer renderEditableContentOn: html ].
-	self assert: aString equals: '<div class="card-block"><p>paragraph</p></div><img alt="ima ge" class="img-fluid" src="url"/>'
+	self assert: aString equals: '<div class="card-block"><p>paragraph</p></div><img alt="ima ge" class="img-fluid img-rounded m-x-auto d-block" src="url"/>'
