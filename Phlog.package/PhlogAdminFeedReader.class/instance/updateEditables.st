@@ -1,7 +1,7 @@
 as yet unclassified
 updateEditables
-	editableCollection := newsCollection
+	(editableCollection := newsCollection
 		collect: [ :aNews | 
 			PhlogAdminTextRenderer new
 				editableContent: aNews;
-				callback: selectionCallback ]
+				callback: selectionCallback ] ) asOrderedCollection

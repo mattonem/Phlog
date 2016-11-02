@@ -6,9 +6,10 @@ neoJsonMapping: mapper
 	mapper
 		for: self
 			do: [ :mapping | 
-					mapping mapProperty: #text getter: [ :object | object text ] setter: [ :object :value | object text: value ].
 					mapping
+						mapProperty: #text getter: [ :object | object text ] setter: [ :object :value | object text: value ];
+						mapProperty: #order getter: [ :object | object order ] setter: [ :object :value | object order: value ];
 						mapProperty: #creationTime
-						getter: [ :object | object creationTime ]
-						setter: [ :object :value | object creationTime: (DateAndTime fromUnixTime: value) ] ];
+							getter: [ :object | object creationTime ]
+							setter: [ :object :value | object creationTime: (DateAndTime fromUnixTime: value) ] ];
 		for: DateAndTime customDo: [ :mapping | mapping encoder: [ :time | time asUnixTime ] ]

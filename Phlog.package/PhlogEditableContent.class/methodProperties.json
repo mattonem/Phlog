@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"fromFile:" : "maxmattone 11/2/2016 21:04",
-		"neoJsonMapping:" : "maxmattone 11/2/2016 20:50" },
+		"neoJsonMapping:" : "maxmattone 11/2/2016 21:29" },
 	"instance" : {
 		"=" : "maxmattone 9/18/2016 18:26:21",
 		"creationTime" : "maxmattone 11/2/2016 20:48",
@@ -10,6 +10,9 @@
 		"hash" : "maxmattone 9/18/2016 18:26:21",
 		"initialize" : "maxmattone 9/18/2016 18:26:21",
 		"key" : "maxmattone 9/18/2016 18:26:21",
+		"moveUp" : "maxmattone 11/2/2016 22:29",
+		"order" : "maxmattone 11/2/2016 22:47",
+		"order:" : "maxmattone 11/2/2016 22:06",
 		"readFromJson:" : "maxmattone 11/2/2016 20:40",
 		"store" : "maxmattone 11/2/2016 21:06",
 		"storingDirectory" : "maxmattone 9/18/2016 18:26:21",
