@@ -1,10 +1,12 @@
 as yet unclassified
 fromFile: aFileReference
-	| stream content instance |
-	instance := self new
+	| stream  instance |
+	
+	stream := aFileReference readStream.
+	instance := self new readFromJson: stream.
+	stream close.
+	
+	instance
 		creationTime: (DateAndTime fromUnixTime: aFileReference basename asNumber);
 		storingFile: aFileReference.
-	stream := aFileReference readStream.
-	content := stream contents.
-	stream close.
-	^ instance text: content
+	^ instance

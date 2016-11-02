@@ -4,5 +4,5 @@ store
 	self storingDirectory ensureCreateDirectory.
 	storingFile deleteIfAbsent: [  ].
 	stream := storingFile ensureCreateFile writeStream.
-	stream nextPutAll: self text.
+	(NeoJSONWriter on: stream) nextPut: self.
 	stream close
