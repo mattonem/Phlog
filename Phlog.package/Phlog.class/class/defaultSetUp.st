@@ -14,6 +14,4 @@ defaultSetUp
 	adminDispatch
 		preferenceAt: #login put: 'admin';
 		preferenceAt: #passwordHash put: (GRPlatform current secureHashFor: 'password');
-		addFilter: WAAuthenticationFilter new.
-	WAAdmin applicationDefaults
-    removeParent: WADevelopmentConfiguration instance.
+		addFilter: WAAuthenticationFilter new

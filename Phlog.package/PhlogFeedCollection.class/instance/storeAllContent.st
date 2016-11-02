@@ -1,3 +1,3 @@
 as yet unclassified
 storeAllContent
-	collection do: [ :content | content store ]
+	collection reverseWithIndexDo: [ :content :order | content order: order; store ]
