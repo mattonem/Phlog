@@ -1,5 +1,6 @@
 rendering
 renderContentOn: html
+	html title: 'Association de Résidents de Bétahon-Cromenach (ARB-C)'.
 	html image
 		url: PhlogDirectFileLibrary / 'Arb-c.jpg';
 		class: 'top-image'.
