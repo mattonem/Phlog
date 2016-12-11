@@ -1,6 +1,7 @@
 as yet unclassified
 defaultSetUp
-	| adminDispatch |
+	| adminDispatch  |
+	preferences := self getPreferenceFile.
 	WAAdmin clearAll.
 	WAAdmin register: WAFileHandler at: 'files'.
 	self installPhlogOnRoot: ''.
@@ -12,8 +13,8 @@ defaultSetUp
 		yourself.
 	adminDispatch configuration addParent: WAAuthConfiguration instance.
 	adminDispatch
-		preferenceAt: #login put: 'admin';
-		preferenceAt: #passwordHash put: (GRPlatform current secureHashFor: 'password');
+		preferenceAt: #login put: (preferences at: #login);
+		preferenceAt: #passwordHash put: (GRPlatform current secureHashFor: (preferences at: #password));
 		addFilter: WAAuthenticationFilter new.
 	WAAdmin applicationDefaults
     removeParent: WADevelopmentConfiguration instance.

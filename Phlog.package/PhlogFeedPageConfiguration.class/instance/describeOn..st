@@ -2,4 +2,6 @@ as yet unclassified
 describeOn: config
 	(config list: #feed)
 		options: [ self possibleFeed ];
-		default: Phlog newsCollection
+		default: Phlog newsCollection.
+	(config string: #title)
+		default: 'Phlog'
