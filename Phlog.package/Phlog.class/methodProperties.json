@@ -1,15 +1,12 @@
 {
 	"class" : {
-		"aboutCollection" : "maxmattone 9/18/2016 18:26:21",
-		"defaultSetUp" : "maxmattone 12/23/2016 14:54",
-		"feeds" : "maxmattone 10/1/2016 16:18",
-		"friendsCollection" : "maxmattone 10/1/2016 16:18",
+		"defaultSetUp" : "maxmattone 12/23/2016 15:38",
+		"feeds" : "maxmattone 12/23/2016 15:33",
 		"getCollection:" : "maxmattone 12/23/2016 15:00",
 		"getCollections" : "maxmattone 12/23/2016 15:04",
 		"getPreferenceFile" : "maxmattone 12/23/2016 15:17",
-		"initialize" : "maxmattone 12/23/2016 14:58",
+		"initialize" : "maxmattone 12/23/2016 15:32",
 		"installAdminPhlogOnRoot:" : "maxmattone 12/23/2016 14:57",
-		"installPhlogOnRoot:" : "maxmattone 12/11/2016 15:39",
-		"newsCollection" : "maxmattone 9/18/2016 18:26:21" },
+		"installPhlogOnRoot:" : "maxmattone 12/23/2016 15:34" },
 	"instance" : {
 		 } }

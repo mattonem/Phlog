@@ -4,9 +4,9 @@ defaultSetUp
 	preferences := self getPreferenceFile.
 	WAAdmin clearAll.
 	WAAdmin register: WAFileHandler at: 'files'.
-	self installPhlogOnRoot: '' .
-	self installAdminPhlogOnRoot: '/admin' .
-	WAAdmin defaultDispatcher defaultName: 'phlog'.
+	self installPhlogOnRoot: ''.
+	self installAdminPhlogOnRoot: '/admin'.
+	WAAdmin defaultDispatcher defaultName: ((preferences at: #tabs) first).
 	(WAAdmin register: WAConfigurationTool asApplicationAt: 'admin/config') addLibrary: WAToolFiles.
 	adminDispatch := (WAAdmin defaultDispatcher handlerAt: 'admin')
 		addFilter: PhlogPortFilter new;
