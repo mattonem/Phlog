@@ -23,6 +23,7 @@ baseline: spec
 						className: 'ConfigurationOfPetitParser';
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main' ].
+			spec projetc: 'NeoJSON' with: #stable.
 			spec
 				package: 'Phlog';
 				package: 'PhlogJs';
