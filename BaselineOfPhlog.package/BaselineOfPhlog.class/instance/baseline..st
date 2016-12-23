@@ -7,8 +7,8 @@ baseline: spec
 				project: 'Seaside3'
 				with: [ spec 
 					className: 'ConfigurationOfSeaside3';
-					repository: 'http://www.smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main' ;
-					versionString: '3.1.3' ].
+					repository: 'github://SeasideSt/Seaside:master/repository' ;
+					versionString: #stable ].
 			spec project: 'Soup' with: #stable.
 			spec
 				project: 'Soup'
@@ -23,6 +23,12 @@ baseline: spec
 						className: 'ConfigurationOfPetitParser';
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main' ].
+			spec
+				project: 'NeoJSON'
+				with: [ spec 
+					className: 'ConfigurationOfNeoJSON';
+					repository: 'github://svenvc/NeoJSON:master/repository' ;
+					versionString: #bleedingEdge ].
 			spec
 				package: 'Phlog';
 				package: 'PhlogJs';

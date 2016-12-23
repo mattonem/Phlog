@@ -1,11 +1,10 @@
 {
 	"category" : "Phlog",
 	"classinstvars" : [
-		 ],
+		"preferences",
+		"collections" ],
 	"classvars" : [
-		"aboutCollection",
-		"friendsCollection",
-		"newsCollection" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
