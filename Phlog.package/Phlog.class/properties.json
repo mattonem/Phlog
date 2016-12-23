@@ -1,7 +1,8 @@
 {
 	"category" : "Phlog",
 	"classinstvars" : [
-		"preferences" ],
+		"preferences",
+		"collections" ],
 	"classvars" : [
 		"aboutCollection",
 		"friendsCollection",
