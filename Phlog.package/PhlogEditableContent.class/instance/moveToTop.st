@@ -1,3 +1,3 @@
 accessing
-moveUp
+moveToTop
 	^ order := SmallInteger maxVal

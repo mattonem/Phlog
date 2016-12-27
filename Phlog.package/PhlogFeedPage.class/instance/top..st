@@ -1,6 +1,6 @@
 category
 top: aNews
-	aNews moveUp.
+	aNews moveToTop.
 	feed sort.
 	feed storeAllContent.
 	self initContent
