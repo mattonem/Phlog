@@ -1,4 +1,4 @@
 grammar
 image
-	^ '![' asParser, altText  , '](' asParser, url  ,')' asParser end ==> [ :node | 
-		PMdImage from: node ]
+	^ ('![' asParser , altText , '](' asParser , url , ')' asParser )
+		==> [ :node | PMdImage from: node ]
