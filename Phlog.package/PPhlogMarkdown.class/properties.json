@@ -16,7 +16,8 @@
 		"text",
 		"textGroup",
 		"strong",
-		"anchor" ],
+		"anchor",
+		"carousel" ],
 	"name" : "PPhlogMarkdown",
 	"pools" : [
 		 ],
