@@ -20,14 +20,11 @@ function confirmOffset(testHeight) {
   if(height != testHeight)
     initTopImageOffset();
 };
-
-$(document).ready(function() {
-  initTopImageOffset();
-});
 $(window).resize(function() {
   initTopImageOffset();
 });
 $(document).ready(function(){
-  $.adaptiveBackground.run();
+	initTopImageOffset();
+  $(''.slick-carousel'').slick({dots: true,speed: 300});
 });
 '
