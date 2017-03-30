@@ -18,5 +18,4 @@ renderContentOn: html
 					html anchor
 						class: 'card-link small';
 						callback: [ callback top: editableContent ];
-						with: 'top'.
-						 ]. ]
+						with: 'top' ] ]
