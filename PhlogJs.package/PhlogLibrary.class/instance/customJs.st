@@ -25,6 +25,6 @@ $(window).resize(function() {
 });
 $(document).ready(function(){
 	initTopImageOffset();
-  $(''.slick-carousel'').slick({dots: true,speed: 300});
+  $(''.slick-carousel'').slick({autoplay: true,autoplaySpeed: 3000,dots: true,speed: 300});
 });
 '
