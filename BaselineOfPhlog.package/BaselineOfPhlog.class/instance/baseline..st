@@ -28,7 +28,7 @@ baseline: spec
 				with: [ spec 
 					className: 'ConfigurationOfNeoJSON';
 					repository: 'github://svenvc/NeoJSON:master/repository' ;
-					versionString: #bleedingEdge ].
+					versionString: #stable ].
 			spec
 				package: 'Phlog';
 				package: 'PhlogJs';
