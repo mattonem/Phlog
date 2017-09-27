@@ -1,0 +1,14 @@
+{
+	"category" : "Phlog-LTTest",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PhlogLTTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
