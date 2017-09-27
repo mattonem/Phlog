@@ -4,7 +4,9 @@ testFirst
   self assert: true.
   aSemaphore := Semaphore new.
   10 timesRepeat:[
-    [self assert: (ZnEasy get: 'http://admin:password@localhost:8443') isSuccess. aSemaphore signal.] fork.
+    [
+      100 timesRepeat: [self assert: (ZnEasy get: 'http://admin:password@localhost:8443') isSuccess.].
+      aSemaphore signal.] fork.
   ].
   10 timesRepeat:[
     aSemaphore wait.
