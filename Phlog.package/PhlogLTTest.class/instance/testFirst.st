@@ -1,3 +1,3 @@
 as yet unclassified
 testFirst
-  self assertTrue: true.
+  self assert: true.
