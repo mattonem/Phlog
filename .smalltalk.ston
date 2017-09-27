@@ -8,10 +8,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : [ 'Phlog', 'Phlog-*' ]
-    },
-    #include : {
-      #categories : [ 'AnotherProject-Tests' ]
+      #categories : [ 'Phlog', 'Phlog-Markdown' ]
     }
   }
 }
