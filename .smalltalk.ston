@@ -7,9 +7,6 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #include : {
-      #categories : [ 'Phlog-Tests' ]
-    },
     #coverage : {
       #categories : [ 'Phlog', 'Phlog-Markdown' ]
     }
