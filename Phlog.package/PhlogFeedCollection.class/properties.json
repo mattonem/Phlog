@@ -1,15 +1,14 @@
 {
-	"category" : "Phlog",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Phlog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"collection",
-		"storeDirectory" ],
+		"storeDirectory"
+	],
 	"name" : "PhlogFeedCollection",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "Phlog-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"body" ],
-	"name" : "PhlogTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Phlog-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"body"
+	],
+	"name" : "PhlogTest",
+	"type" : "normal"
+}

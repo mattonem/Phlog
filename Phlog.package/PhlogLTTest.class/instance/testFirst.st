@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testFirst
   |aSemaphore|
   self assert: true.
