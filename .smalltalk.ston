@@ -7,7 +7,9 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    
+    #exclude : {
+      #categories : ['Phlog-LTTest']
+    },
     #coverage : {
       #categories : [ 'Phlog', 'Phlog-Markdown' ]
     }
