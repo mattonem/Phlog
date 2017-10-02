@@ -1,15 +1,14 @@
 {
+	"commentStamp" : "",
+	"super" : "WAApplication",
 	"category" : "Phlog",
 	"classinstvars" : [
 		"preferences",
-		"collections" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+		"collections"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "Phlog",
-	"pools" : [
-		 ],
-	"super" : "WAApplication",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,15 +1,14 @@
 {
-	"category" : "Phlog-SeasideComponent",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Phlog-SeasideComponent",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"callback",
-		"editableContent" ],
+		"editableContent"
+	],
 	"name" : "PhlogTextEditor",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

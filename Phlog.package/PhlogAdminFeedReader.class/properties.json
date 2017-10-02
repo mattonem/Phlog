@@ -1,14 +1,11 @@
 {
-	"category" : "Phlog-SeasideComponent",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PhlogAdminFeedReader",
-	"pools" : [
-		 ],
 	"super" : "PhlogFeedReader",
-	"type" : "normal" }
+	"category" : "Phlog-SeasideComponent",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PhlogAdminFeedReader",
+	"type" : "normal"
+}

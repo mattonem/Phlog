@@ -1,14 +1,11 @@
 {
-	"category" : "Phlog-SeasideComponent",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PhlogAdminTextRenderer",
-	"pools" : [
-		 ],
 	"super" : "PhlogTextRenderer",
-	"type" : "normal" }
+	"category" : "Phlog-SeasideComponent",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PhlogAdminTextRenderer",
+	"type" : "normal"
+}

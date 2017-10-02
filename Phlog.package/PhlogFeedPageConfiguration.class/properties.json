@@ -1,14 +1,11 @@
 {
-	"category" : "Phlog",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PhlogFeedPageConfiguration",
-	"pools" : [
-		 ],
 	"super" : "WASystemConfiguration",
-	"type" : "normal" }
+	"category" : "Phlog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PhlogFeedPageConfiguration",
+	"type" : "normal"
+}
