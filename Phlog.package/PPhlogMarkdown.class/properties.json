@@ -1,10 +1,10 @@
 {
-	"category" : "Phlog-Markdown",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Phlog-Markdown",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"document",
 		"paragraph",
@@ -17,9 +17,8 @@
 		"textGroup",
 		"strong",
 		"anchor",
-		"carousel" ],
+		"carousel"
+	],
 	"name" : "PPhlogMarkdown",
-	"pools" : [
-		 ],
-	"super" : "PPCompositeParser",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "Phlog-Markdown",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"content" ],
-	"name" : "PMdParagraph",
-	"pools" : [
-		 ],
 	"super" : "PMdElement",
-	"type" : "normal" }
+	"category" : "Phlog-Markdown",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"content"
+	],
+	"name" : "PMdParagraph",
+	"type" : "normal"
+}

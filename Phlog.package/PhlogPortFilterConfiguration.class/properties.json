@@ -1,14 +1,11 @@
 {
-	"category" : "Phlog-ZincSupport",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PhlogPortFilterConfiguration",
-	"pools" : [
-		 ],
 	"super" : "WAConfiguration",
-	"type" : "normal" }
+	"category" : "Phlog-ZincSupport",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PhlogPortFilterConfiguration",
+	"type" : "normal"
+}

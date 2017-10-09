@@ -1,15 +1,14 @@
 {
-	"category" : "Phlog-Markdown",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PMdElement",
+	"category" : "Phlog-Markdown",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"altText",
-		"url" ],
+		"url"
+	],
 	"name" : "PMdAnchor",
-	"pools" : [
-		 ],
-	"super" : "PMdElement",
-	"type" : "normal" }
+	"type" : "normal"
+}

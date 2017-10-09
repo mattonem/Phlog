@@ -1,16 +1,17 @@
 {
-	"category" : "Phlog-SeasideComponent",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Phlog-SeasideComponent",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"newsCollection",
 		"editableCollection",
-		"selectionCallback" ],
+		"selectionCallback",
+		"indexFrom",
+		"feedsPerPage"
+	],
 	"name" : "PhlogFeedReader",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}

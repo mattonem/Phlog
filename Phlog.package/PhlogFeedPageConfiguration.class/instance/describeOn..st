@@ -1,7 +1,10 @@
-as yet unclassified
+description
 describeOn: config
+	(config integer: #feedsPerPage)
+		comment:
+			'Number of feeds per page';
+		default: 10.
 	(config list: #feed)
 		options: [ self possibleFeed ];
 		default: Phlog getCollections anyOne.
-	(config string: #title)
-		default: 'Phlog'
+	(config string: #title) default: 'Phlog'
