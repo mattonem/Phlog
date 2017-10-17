@@ -1,3 +1,3 @@
 category
 printOn: aStream
-	aStream nextPutAll: storeDirectory name asString
+	aStream nextPutAll: storeDirectory  printString
