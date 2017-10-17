@@ -8,7 +8,9 @@
 	"instvars" : [
 		"newsCollection",
 		"editableCollection",
-		"selectionCallback"
+		"selectionCallback",
+		"indexFrom",
+		"feedsPerPage"
 	],
 	"name" : "PhlogFeedReader",
 	"type" : "normal"
