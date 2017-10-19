@@ -27,5 +27,3 @@ renderContentOn: html
 					html anchor
 						callback: [ indexFrom := editableCollection size - feedsPerPage ];
 						with: '>>' ] ].
-	html header: 'feeds per page: ' , feedsPerPage asString.
-	html header: 'index: ' , indexFrom asString
