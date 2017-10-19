@@ -7,11 +7,8 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #exclude : {
-      #categories : ['Phlog-LTTest']
-    },
     #coverage : {
-      #categories : [ 'Phlog', 'Phlog-Markdown' ]
+      #categories : [ 'Phlog', 'Phlog-Markdown', 'Phlog-SeasideComponent', 'Phlog-ZincSupport' ]
     }
   }
 }
