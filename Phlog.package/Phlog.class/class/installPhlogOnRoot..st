@@ -7,4 +7,5 @@ installPhlogOnRoot: root
 			handler addLibrary: PhlogLibrary.
 			handler configuration addParent: PhlogFeedPageConfiguration instance.
 			handler configuration at: #feed put: (self getCollection: aTabName ).
+			handler configuration at: #uacctGoogle put: (preferences at: #uacctGoogle).
 			handler configuration at: #title put: (preferences at: #title) ]
