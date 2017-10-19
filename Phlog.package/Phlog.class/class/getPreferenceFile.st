@@ -10,7 +10,8 @@ getPreferenceFile
 			dict := {(#login -> 'admin').
 			(#password -> 'password').
 			(#title -> 'Seaside').
-			(#tabs -> {'News' . 'About' . 'Friends'})} asDictionary.
+			(#tabs -> {'News' . 'About' . 'Friends'}).
+			(#uacctGoogle -> '')} asDictionary.
 			wstream := file writeStream.
 			(NeoJSONWriter on: wstream)
 				prettyPrint: true;
