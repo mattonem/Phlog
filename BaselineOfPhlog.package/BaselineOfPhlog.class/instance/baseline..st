@@ -25,10 +25,10 @@ baseline: spec
 						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ].
 			spec
 				project: 'NeoJSON'
-				with: [ spec 
-					className: 'ConfigurationOfNeoJSON';
-					repository: 'github://svenvc/NeoJSON:master/repository' ;
-					versionString: #stable ].
+				with: [ spec
+						className: 'ConfigurationOfNeoJSON';
+						versionString: #stable;
+						repository: 'http://mc.stfx.eu/Neo' ].
 			spec baseline: 'OpenSansEmojiInstaller'
 				with: [ spec 
 					repository: 'github://mattonem/OpenSansEmojiInstaller:master/' ;
