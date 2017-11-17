@@ -1,4 +1,4 @@
-as yet unclassified
+baselines
 baseline: spec
 	<baseline>
 	spec
@@ -29,6 +29,10 @@ baseline: spec
 						className: 'ConfigurationOfNeoJSON';
 						versionString: #stable;
 						repository: 'http://mc.stfx.eu/Neo' ].
+			spec baseline: 'OpenSansEmojiInstaller'
+				with: [ spec 
+					repository: 'github://mattonem/OpenSansEmojiInstaller:master/' ;
+					loads: #'default' ].
 			spec
 				package: 'Phlog';
 				package: 'PhlogJs';
