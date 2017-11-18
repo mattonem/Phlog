@@ -9,6 +9,10 @@ baseline: spec
 					className: 'ConfigurationOfSeaside3';
 					repository: 'github://SeasideSt/Seaside:master/repository' ;
 					versionString: #stable ].
+			spec baseline: 'AWS'
+				with: [ spec 
+					repository: 'github://newapplesho/aws-sdk-smalltalk/pharo-repository' ;
+					loads: #'default' ].	
 			spec project: 'Soup' with: #stable.
 			spec
 				project: 'Soup'
