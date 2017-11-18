@@ -16,6 +16,11 @@ baseline: spec
 						loads: #default ].
 			spec project: 'Soup' with: #stable.
 			spec
+				project: 'Parasol'
+				with: [ spec
+						repository: 'github://SeasideSt/Parasol/repository';
+						loads: #test ].
+			spec
 				project: 'Soup'
 				with: [ spec
 						className: 'ConfigurationOfSoup';
