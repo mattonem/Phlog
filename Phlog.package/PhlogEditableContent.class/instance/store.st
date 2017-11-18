@@ -1,4 +1,4 @@
-accessing
+💾
 store
 	| stream item dynamoDbTable result |
 	self storingDirectory ensureCreateDirectory.
