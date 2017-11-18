@@ -1,13 +1,13 @@
 accessing
-store
+store: aTableName
 	| stream item dynamoDbTable result |
 	self storingDirectory ensureCreateDirectory.
 	storingFile deleteIfAbsent: [  ].
 	stream := storingFile ensureCreateFile writeStream.
 	
 	
-	item := NeoJSONObject fromString: (NeoJSONWriter toString: self).
-	dynamoDbTable := DynamoDBTable tableNamed: 'EditableContentTest'.
+	item := NeoJSONWriter toString: self.
+	dynamoDbTable := DynamoDBTable tableNamed: aTableName.
 	result := dynamoDbTable putItem: item.
 	self assert: (result isEmpty).
 	
