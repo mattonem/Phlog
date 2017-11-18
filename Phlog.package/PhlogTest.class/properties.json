@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"body"
+		"body",
+		"driver"
 	],
 	"name" : "PhlogTest",
 	"type" : "normal"

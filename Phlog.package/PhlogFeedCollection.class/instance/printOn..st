@@ -1,3 +1,3 @@
 category
 printOn: aStream
-	aStream nextPutAll: storeDirectory  printString
+	aStream nextPutAll: datatableName

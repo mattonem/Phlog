@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderContentOn: html
 	html
 		card: [ html
@@ -10,6 +10,7 @@ renderContentOn: html
 										class: 'form-control';
 										callback: [ :value | 
 											editableContent text: value.
+											callback  store: editableContent .
 											callback unselect ].
 									html break.
 									html submitButton class: 'btn btn-primary' ] ] ] ]
