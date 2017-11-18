@@ -5,14 +5,15 @@ baseline: spec
 		for: #common
 		do: [ spec
 				project: 'Seaside3'
-				with: [ spec 
-					className: 'ConfigurationOfSeaside3';
-					repository: 'github://SeasideSt/Seaside:master/repository' ;
-					versionString: #stable ].
-			spec baseline: 'AWS'
-				with: [ spec 
-					repository: 'github://newapplesho/aws-sdk-smalltalk/pharo-repository' ;
-					loads: #'default' ].	
+				with: [ spec
+						className: 'ConfigurationOfSeaside3';
+						repository: 'github://SeasideSt/Seaside:master/repository';
+						versionString: #stable ].
+			spec
+				baseline: 'AWS'
+				with: [ spec
+						repository: 'github://newapplesho/aws-sdk-smalltalk/pharo-repository';
+						loads: #default ].
 			spec project: 'Soup' with: #stable.
 			spec
 				project: 'Soup'
@@ -33,10 +34,11 @@ baseline: spec
 						className: 'ConfigurationOfNeoJSON';
 						versionString: #stable;
 						repository: 'http://mc.stfx.eu/Neo' ].
-			spec baseline: 'OpenSansEmojiInstaller'
-				with: [ spec 
-					repository: 'github://mattonem/OpenSansEmojiInstaller:master/' ;
-					loads: #'default' ].
+			spec
+				baseline: 'OpenSansEmojiInstaller'
+				with: [ spec
+						repository: 'github://mattonem/OpenSansEmojiInstaller:master/';
+						loads: #default ].
 			spec
 				package: 'Phlog';
 				package: 'PhlogJs';
