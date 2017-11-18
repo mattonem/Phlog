@@ -1,3 +1,10 @@
 as yet unclassified
 storeAllContent
-	collection reverseWithIndexDo: [ :content :order | content order: order; store ]
+	| dynamoDbTable |
+	dynamoDbTable := DynamoDBTable tableNamed: datatableName.
+	dynamoDbTable mapper.
+	collection
+		reverseWithIndexDo: [ :content :order | 
+			content
+				order: order.
+			dynamoDbTable putItem: content asDictionary ]

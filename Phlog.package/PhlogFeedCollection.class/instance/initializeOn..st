@@ -1,5 +1,4 @@
-as yet unclassified
-initializeOn: aDirectory
-	aDirectory ensureCreateDirectory.
-	storeDirectory := aDirectory.
+initialization
+initializeOn: aDatatablename
+	datatableName  := aDatatablename.
 	self updateContentCollection

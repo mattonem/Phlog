@@ -1,0 +1,3 @@
+tests
+tableName
+	^ 'EditableContentTest'
