@@ -14,12 +14,11 @@ baseline: spec
 				with: [ spec
 						repository: 'github://newapplesho/aws-sdk-smalltalk/pharo-repository';
 						loads: #default ].
-			spec project: 'Soup' with: #stable.
 			spec
-				project: 'Parasol'
+				baseline: 'Parasol'
 				with: [ spec
 						repository: 'github://SeasideSt/Parasol/repository';
-						loads: #test ].
+						loads: #tests ].
 			spec
 				project: 'Soup'
 				with: [ spec
