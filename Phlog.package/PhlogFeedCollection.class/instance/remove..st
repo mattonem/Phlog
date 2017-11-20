@@ -1,4 +1,8 @@
 category
 remove: aNews
-	collection remove: aNews.
-	aNews delete
+	
+	| dic dynamoTable |
+	dic := Dictionary newFrom: {'id' -> aNews id }.
+	dynamoTable := DynamoDBTable tableNamed: datatableName.
+	dynamoTable mapper.
+	dynamoTable deleteItem: dic.
