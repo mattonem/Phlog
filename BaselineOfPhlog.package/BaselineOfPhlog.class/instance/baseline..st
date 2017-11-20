@@ -18,7 +18,7 @@ baseline: spec
 				baseline: 'Parasol'
 				with: [ spec
 						repository: 'github://SeasideSt/Parasol/repository';
-						loads: #tests ].
+						loads: #default ].
 			spec
 				project: 'Soup'
 				with: [ spec
