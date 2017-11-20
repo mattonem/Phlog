@@ -13,4 +13,7 @@ tearDown
 	self deleteTable: 'News'.
 	self deleteTable: 'About'.
 	self deleteTable: 'Friends'.
-	driver close.
+	driver
+		ifNotNil: 
+			[BPWebDriverManagerResource current quitOrCacheDriver: driver
+				withCapabilities: BPDesiredCapabilities chrome].
