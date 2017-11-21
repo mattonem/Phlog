@@ -7,7 +7,7 @@ baseline: spec
 			spec 
 				baseline: 'Seaside3' with: [
 				spec
-					loads: #default;
+					loads: #Base;
 					repository: 'github://SeasideSt/Seaside/repository'].
 			spec
 				baseline: 'AWS'
