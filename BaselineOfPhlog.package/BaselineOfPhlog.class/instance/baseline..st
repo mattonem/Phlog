@@ -3,12 +3,12 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ spec
-				project: 'Seaside3'
-				with: [ spec
-						className: 'ConfigurationOfSeaside3';
-						repository: 'github://SeasideSt/Seaside:master/repository';
-						versionString: #stable ].
+		do: [ 
+			spec 
+				baseline: 'Seaside3' with: [
+				spec
+					loads: #default;
+					repository: 'github://SeasideSt/Seaside/repository'].
 			spec
 				baseline: 'AWS'
 				with: [ spec
