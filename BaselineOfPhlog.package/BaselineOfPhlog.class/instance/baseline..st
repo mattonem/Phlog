@@ -19,12 +19,6 @@ baseline: spec
 				with: [ spec
 						repository: 'github://SeasideSt/Parasol/repository';
 						loads: #default ].
-			spec
-				project: 'Soup'
-				with: [ spec
-						className: 'ConfigurationOfSoup';
-						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ].
 			spec project: 'PetitParser' with: #stable.
 			spec
 				project: 'PetitParser'
