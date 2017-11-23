@@ -9,6 +9,9 @@ SmalltalkCISpec {
   #testing : {
     #coverage : {
       #categories : [ 'Phlog', 'Phlog-Markdown', 'Phlog-SeasideComponent', 'Phlog-ZincSupport' ]
-    }
+    },
+    #include : {
+       #categories : [ 'Phlog-*' ]	
+     }
   }
 }
