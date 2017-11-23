@@ -7,7 +7,7 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #coverage : {
+    #include : {
       #categories : [ 'Phlog', 'Phlog-Markdown', 'Phlog-SeasideComponent', 'Phlog-ZincSupport' ]
     }
   }
