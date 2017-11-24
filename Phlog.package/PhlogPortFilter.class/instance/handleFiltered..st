@@ -1,8 +1,3 @@
 as yet unclassified
 handleFiltered: aRequestContext 
-	(aRequestContext request url port = 443) 
-		ifTrue: [ super handleFiltered: aRequestContext ]
-		ifFalse: [
-			aRequestContext responseGenerator
-				notFound;
-				respond ]
+	^ super handleFiltered: aRequestContext 
