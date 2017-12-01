@@ -1,5 +1,9 @@
 description
 describeOn: config
+	(config string: #uacctGoogle)
+		comment:
+			'uacct for Google Analitics';
+		default: ''.
 	(config integer: #feedsPerPage)
 		comment:
 			'Number of feeds per page';

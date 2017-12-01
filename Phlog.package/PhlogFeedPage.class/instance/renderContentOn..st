@@ -1,5 +1,6 @@
 rendering
 renderContentOn: html
+	self renderGAnalyticsOn: html.
 	html image
 		url: PhlogDirectFileLibrary / 'Arb-c.jpg';
 		class: 'top-image'.
