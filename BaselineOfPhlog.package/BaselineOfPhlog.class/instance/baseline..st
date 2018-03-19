@@ -8,7 +8,7 @@ baseline: spec
 				with: [ spec
 						className: 'ConfigurationOfSeaside3';
 						repository: 'github://SeasideSt/Seaside:master/repository';
-						loads: #('Core' 'FileSystem');
+						loads: #('Core' 'Filesystem');
 						versionString: #'stable'.].
 			spec project: 'Soup' with: #stable.
 			spec
