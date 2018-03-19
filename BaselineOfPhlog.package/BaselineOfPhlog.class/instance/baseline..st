@@ -8,8 +8,7 @@ baseline: spec
 				with: [ spec
 						className: 'ConfigurationOfSeaside3';
 						repository: 'github://SeasideSt/Seaside:master/repository';
-						with: 'Filesystem';
-						versionString: #stable ].
+						requires: 'FileSystem' ].
 			spec project: 'Soup' with: #stable.
 			spec
 				project: 'Soup'
