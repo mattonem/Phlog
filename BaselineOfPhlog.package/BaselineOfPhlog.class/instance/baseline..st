@@ -40,6 +40,9 @@ baseline: spec
 						repository: 'github://mattonem/SeasideFileLibraries:release-2/src';
 						loads: #default ].
 			spec
+    				baseline: 'MaterialDesignLite'
+    				with: [ spec repository: 'github://DuneSt/MaterialDesignLite:master/src' ].
+			spec
 				package: 'Phlog';
 				package: 'PhlogJs';
 				yourself ]
