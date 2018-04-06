@@ -9,3 +9,14 @@ os:
 smalltalk:
   - Pharo-5.0
   - Pharo-6.1
+
+deploy:
+  provider: releases
+  api_key:
+    secure: IHQwqBeIu6+AMazyatokBPg20bLwh/X5vm6dG8VwhkRbF+FgwyuVJFI0Cy+7dC0K4yrNLTS4PVAKtUnaJXzU0SpOWJtkf0Y35IUloK8JQkbqIaZsJExQwnzxNoTHQFdXsRkTSU5YrTSmMNHj4NfiFlrB2OESsB6xgghhnUUyQkm7jcmAIIZtbQCnF69R8G0drUM1/esscgAExEiAkmq2lRPMuGfDyU5vF8PULwQgZ3njzgEi5H/mNGzjAVHd7VlQgrSbakLGPj/ucFlHmYiwtWcW3v1ks98aLVg60wfw4sHvds+9BXbbwwsdF4AsyElzrwa+KPKq0uWTGCh5gc4Xe7YqsqqX+P6Ja/uZd9hx6WVoY7kd5UgpHKB+trlSkUajJ414HGDzAQ9GXIlHRN0QkmGlcDjgRzCdHBx7wVHmn8AZ3i42VuRPiFf/t7dRAU4aRRG1z+p+FrD82dutIopU2NFFAhQblbIFVHO1jhuF7bz9aIQqMLdUAjO7BpVc4aLrKzGFFmzO3omquJcM9aMynfXe5MppZq7Pl7YvwFcF8JNaW3Detz7BYIjpuvhJTLu2uLPuo4t0+YsiJZnLrCBGHiBlxnmS310JQVsPUWmxA0oBaUhq7AT20DOh1nRfT1u8FarYmwvqdI/J6bx776XIEChxH4d3aJYCOrQVQbnvY+E=
+  file: 
+    - /home/travis/smalltalkCI-master/_builds/TravisCI.changes
+    - /home/travis/smalltalkCI-master/_builds/TravisCI.image
+  skip_cleanup: true
+  on:
+    tags: true
