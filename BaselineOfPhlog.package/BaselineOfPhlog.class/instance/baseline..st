@@ -22,7 +22,7 @@ baseline: spec
 				with: [ spec
 						className: 'ConfigurationOfPetitParser';
 						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ].
+						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main' ].
 			spec
 				project: 'NeoJSON'
 				with: [ spec
