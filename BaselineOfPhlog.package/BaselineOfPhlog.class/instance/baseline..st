@@ -15,7 +15,7 @@ baseline: spec
 				with: [ spec
 						className: 'ConfigurationOfSoup';
 						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main' ].
+						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ].
 			spec project: 'PetitParser' with: #stable.
 			spec
 				project: 'PetitParser'
