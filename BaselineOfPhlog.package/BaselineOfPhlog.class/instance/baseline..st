@@ -21,7 +21,7 @@ baseline: spec
 			spec
 				baseline: 'FSFileLibrary'
 				with: [ spec
-						repository: 'github://mattonem/SeasideFileLibraries:release-2/src';
+						repository: 'github://mattonem/SeasideFileLibraries:master/src';
 						loads: #default ].
 			spec
 				package: 'Phlog';
