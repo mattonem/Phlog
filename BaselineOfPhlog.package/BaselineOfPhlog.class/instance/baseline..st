@@ -4,35 +4,19 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				project: 'Seaside3'
+				baseline: 'Seaside3'
 				with: [ spec
-						className: 'ConfigurationOfSeaside3';
 						repository: 'github://SeasideSt/Seaside:master/repository';
-						versionString: #stable ].
-			spec project: 'Soup' with: #stable.
+						loads: #default ].
 			spec
-				project: 'Soup'
+				baseline: 'PetitParser'
 				with: [ spec
-						className: 'ConfigurationOfSoup';
-						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ].
-			spec project: 'PetitParser' with: #stable.
+						repository: 'github://moosetechnology/PetitParser/src';
+						loads: #default ].
 			spec
-				project: 'PetitParser'
+				baseline: 'NeoJSON'
 				with: [ spec
-						className: 'ConfigurationOfPetitParser';
-						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ].
-			spec
-				project: 'NeoJSON'
-				with: [ spec
-						className: 'ConfigurationOfNeoJSON';
-						versionString: #stable;
-						repository: 'http://mc.stfx.eu/Neo' ].
-			spec
-				baseline: 'OpenSansEmojiInstaller'
-				with: [ spec
-						repository: 'github://mattonem/OpenSansEmojiInstaller:master/';
+						repository: 'github://svenvc/NeoJSON/repository';
 						loads: #default ].
 			spec
 				baseline: 'FSFileLibrary'

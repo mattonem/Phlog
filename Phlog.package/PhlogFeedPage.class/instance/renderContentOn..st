@@ -2,7 +2,7 @@ rendering
 renderContentOn: html
 	self renderGAnalyticsOn: html.
 	html image
-		url: PhlogDirectFileLibrary / 'Arb-c.jpg';
+		url: 'files/FSFileLibrary/background.jpg';
 		class: 'top-image'.
 	html div class: 'log top-image-margin'.
 	html
