@@ -24,6 +24,11 @@ baseline: spec
 						repository: 'github://mattonem/SeasideFileLibraries:master/src';
 						loads: #default ].
 			spec
+				baseline: 'Parasol'
+				with: [ spec
+						repository: 'github://SeasideSt/Parasol/repository';
+						loads: #tests ].
+			spec
 				package: 'Phlog'
 					with:
 						[ spec requires: #('Seaside3' 'PetitParser' 'FSFileLibrary' 'NeoJSON') ];
@@ -31,5 +36,5 @@ baseline: spec
 				package: 'PhlogJs' with: [ spec requires: #('Phlog') ];
 				group: 'default' with: #('core' 'tests');
 				group: 'core' with: #('Phlog' 'PhlogJs');
-				group: 'tests' with: #('Phlog' 'PhlogJs' 'Phlog-Tests');
+				group: 'tests' with: #('Phlog' 'PhlogJs' 'Phlog-Tests' 'Parasol');
 				yourself ]
