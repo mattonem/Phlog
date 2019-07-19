@@ -12,12 +12,12 @@ baseline: spec
 				baseline: 'PetitParser'
 				with: [ spec
 						repository: 'github://moosetechnology/PetitParser/src';
-						loads: #default ].
+						loads: #Core ].
 			spec
 				baseline: 'NeoJSON'
 				with: [ spec
 						repository: 'github://svenvc/NeoJSON/repository';
-						loads: #default ].
+						loads: #core ].
 			spec
 				baseline: 'FSFileLibrary'
 				with: [ spec
