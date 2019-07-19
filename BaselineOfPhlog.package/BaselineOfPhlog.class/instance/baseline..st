@@ -24,6 +24,12 @@ baseline: spec
 						repository: 'github://mattonem/SeasideFileLibraries:master/src';
 						loads: #default ].
 			spec
-				package: 'Phlog';
-				package: 'PhlogJs';
+				package: 'Phlog'
+					with:
+						[ spec requires: #('Seaside3' 'PetitParser' 'FSFileLibrary' 'NeoJSON') ];
+				package: 'Phlog-Tests' with: [ spec requires: #('Phlog') ];
+				package: 'PhlogJs' with: [ spec requires: #('Phlog') ];
+				group: 'default' with: #('core' 'tests');
+				group: 'core' with: #('Phlog' 'PhlogJs');
+				group: 'tests' with: #('Phlog' 'PhlogJs' 'Phlog-Tests');
 				yourself ]
