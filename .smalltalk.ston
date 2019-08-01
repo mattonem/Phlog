@@ -2,6 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Phlog',
+      #load : [ 'tests' ],
       #directory : '.', 
       #platforms : [ #pharo ]
     }

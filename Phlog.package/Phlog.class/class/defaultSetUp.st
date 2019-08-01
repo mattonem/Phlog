@@ -1,5 +1,6 @@
 as yet unclassified
 defaultSetUp
+	<example>
 	| adminDispatch |
 	preferences := self getPreferenceFile.
 	WAAdmin clearAll.
