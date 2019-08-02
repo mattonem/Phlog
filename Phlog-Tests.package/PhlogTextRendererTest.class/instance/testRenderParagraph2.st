@@ -8,4 +8,4 @@ testRenderParagraph2
 		rootClass: WAHtmlRoot;
 		fullDocument: false;
 		render: [ :html | renderer renderEditableContentOn: html ].
-	self assert: aString equals:  '<div class="container"><p>paragraph</p><p>para2</p></div>'
+	self assert: aString equals:  '<div class="container-fluid"><p>paragraph</p><p>para2</p></div>'

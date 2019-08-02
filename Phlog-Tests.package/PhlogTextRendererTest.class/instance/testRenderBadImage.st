@@ -9,4 +9,4 @@ testRenderBadImage
 		rootClass: WAHtmlRoot;
 		fullDocument: false;
 		render: [ :html | renderer renderEditableContentOn: html ].
-	self assert: aString equals: '<div class="container"><p>paragraph</p><p>!(imageurl]</p></div>'
+	self assert: aString equals: '<div class="container-fluid"><p>paragraph</p><p>!(imageurl]</p></div>'

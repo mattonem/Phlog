@@ -15,4 +15,9 @@ p {
     background-color: #fff;
     border-color: #ccc;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 '

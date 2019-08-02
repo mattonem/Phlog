@@ -8,4 +8,4 @@ testRenderStrong
 		rootClass: WAHtmlRoot;
 		fullDocument: false;
 		render: [ :html | renderer renderEditableContentOn: html ].
-	self assert: aString equals: '<div class="container"><p><strong>strong</strong></p></div>'
+	self assert: aString equals: '<div class="container-fluid"><p><strong>strong</strong></p></div>'
