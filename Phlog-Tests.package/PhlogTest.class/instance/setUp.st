@@ -2,4 +2,4 @@ as yet unclassified
 setUp
 	super setUp.
 	Phlog defaultSetUp.
-	PhlogServerAdaptor startOn: 8443
+	ZnZincServerAdaptor startOn: 8443
