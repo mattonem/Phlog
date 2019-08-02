@@ -22,7 +22,7 @@ baseline: spec
 				baseline: 'Bootstrap'
 				with: [ spec
 						repository: 'github://astares/Seaside-Bootstrap:master/src';
-						load: #core ].
+						loads: #core ].
 			spec
 				baseline: 'FSFileLibrary'
 				with: [ spec
