@@ -19,7 +19,7 @@ baseline: spec
 						repository: 'github://svenvc/NeoJSON/repository';
 						loads: #core ].
 			spec
-				baseline: 'Bootstrap';
+				baseline: 'Bootstrap'
 				with: [ spec
 						repository: 'github://astares/Seaside-Bootstrap:master/src';
 						load: #core ].
