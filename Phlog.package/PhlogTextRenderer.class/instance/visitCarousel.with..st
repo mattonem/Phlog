@@ -1,7 +1,6 @@
 as yet unclassified
 visitCarousel: aPMdCarousel with: aWAHtmlCanvas
-	aWAHtmlCanvas div
-		class: 'container';
+	aWAHtmlCanvas tbsContainerFluid 
 		with: [ aWAHtmlCanvas div class: 'col-sm-2'.
 			aWAHtmlCanvas div
 				class: 'slick-carousel slide col-sm-8';
