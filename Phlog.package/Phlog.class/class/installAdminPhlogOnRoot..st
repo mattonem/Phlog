@@ -6,6 +6,7 @@ installAdminPhlogOnRoot: root
 			handler := WAAdmin
 				register: PhlogAdminFeedPage
 				asApplicationAt: root , '/' , aTabName.
+			handler addLibrary: JQDeploymentLibrary.
 			handler addLibrary: PhlogLibrary.
 			handler addLibrary: TBSDeploymentLibrary.
 			handler configuration

@@ -4,6 +4,7 @@ installPhlogOnRoot: root
 	(preferences at: #tabs)
 		do: [ :aTabName | 
 			handler := WAAdmin register: PhlogFeedPage asApplicationAt: root , '/' , aTabName.
+			handler addLibrary: JQDeploymentLibrary.
 			handler addLibrary: PhlogLibrary.
 			handler addLibrary: TBSDeploymentLibrary.
 			handler configuration addParent: PhlogFeedPageConfiguration instance.

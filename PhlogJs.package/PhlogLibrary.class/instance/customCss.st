@@ -10,11 +10,6 @@ p {
     text-align: justify;
     text-justify: inter-word;
 }
-.btn-default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
-}
 .center {
   display: block;
   margin-left: auto;
