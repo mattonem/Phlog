@@ -1,9 +1,8 @@
 as yet unclassified
 renderAddButton: html
-	html div
-		class: 'btn-group';
-		with: [ html anchor
-				class: 'btn btn-default';
+	html
+		tbsButtonGroup: [ html anchor
+				class: 'btn';
 				callback: [ | newNews |
 					newNews := newsCollection newContent.
 					selectionCallback edit: newNews ];

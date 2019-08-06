@@ -14,8 +14,18 @@ slickThemeCss
     font-weight: normal;
     font-style: normal;
 
-    src: url(''../../directfiles/fonts/slick.eot'');
-    src: url(''../../directfiles/fonts/slick.eot?#iefix'') format(''embedded-opentype''), url(''../../directfiles/fonts/slick.woff'') format(''woff''), url(''../../directfiles/fonts/slick.ttf'') format(''truetype''), url(''../../directfiles/fonts/slick.svg#slick'') format(''svg'');
+    src: url(''' , (PhlogLibrary urlOf: #slickEot) asString
+		,
+			''');
+    src: url(''' , (PhlogLibrary urlOf: #slickEot) asString
+		, '?#iefix'') format(''embedded-opentype''), url('''
+		, (PhlogLibrary urlOf: #slickWoff) asString
+		, ''') format(''woff''), url('''
+		, (PhlogLibrary urlOf: #slickTTf) asString
+		, ''') format(''truetype''), url('''
+		, (PhlogLibrary urlOf: #slickSvg) asString
+		,
+			'#slick'') format(''svg'');
 }
 /* Arrows */
 .slick-prev,

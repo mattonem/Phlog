@@ -19,15 +19,19 @@ baseline: spec
 						repository: 'github://svenvc/NeoJSON/repository';
 						loads: #core ].
 			spec
+				baseline: 'Bootstrap'
+				with: [ spec
+						repository: 'github://astares/Seaside-Bootstrap:master/src';
+						loads: #Core ].
+			spec
 				baseline: 'FSFileLibrary'
 				with: [ spec
 						repository: 'github://mattonem/SeasideFileLibraries:master/src';
 						loads: #default ].
-			
 			spec
 				package: 'Phlog'
 					with:
-						[ spec requires: #('Seaside3' 'PetitParser' 'FSFileLibrary' 'NeoJSON') ];
+						[ spec requires: #('Seaside3' 'PetitParser' 'FSFileLibrary' 'NeoJSON' 'Bootstrap') ];
 				package: 'Phlog-Tests' with: [ spec requires: #('Phlog') ];
 				package: 'PhlogJs' with: [ spec requires: #('Phlog') ];
 				group: 'default' with: #('core' 'tests');
