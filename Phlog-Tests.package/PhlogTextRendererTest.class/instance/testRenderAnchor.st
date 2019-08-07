@@ -8,4 +8,4 @@ testRenderAnchor
 		rootClass: WAHtmlRoot;
 		fullDocument: false;
 		render: [ :html | renderer renderEditableContentOn: html ].
-	self assert: aString equals: '<div class="card-block"><p><a href="url">alt text</a></p></div>'
+	self assert: aString equals: '<div class="container-fluid"><p><a href="url">alt text</a></p></div>'

@@ -8,4 +8,4 @@ testRenderEm
 		rootClass: WAHtmlRoot;
 		fullDocument: false;
 		render: [ :html | renderer renderEditableContentOn: html ].
-	self assert: aString equals: '<div class="card-block"><p><em>em</em></p></div>'
+	self assert: aString equals: '<div class="container-fluid"><p><em>em</em></p></div>'

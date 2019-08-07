@@ -2,4 +2,6 @@ as yet unclassified
 setUp
 	super setUp.
 	Phlog defaultSetUp.
-	PhlogServerAdaptor startOn: 8443
+	WAServerManager default stopAll.
+	WAServerManager default adaptors do: [:adapt | WAServerManager default unregister: adapt  ].
+	ZnZincServerAdaptor startOn: 8443
