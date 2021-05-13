@@ -40,7 +40,7 @@ BaselineOfPhlog >> baseline: spec [
 						[ spec requires: #('Seaside3' 'PetitParser' 'FSFileLibrary' 'NeoJSON' 'Bootstrap') ];
 				package: 'Phlog-Tests' with: [ spec requires: #('Phlog') ];
 				package: 'PhlogJs' with: [ spec requires: #('Phlog') ];
-				group: 'default' with: #('core' 'tests');
+				group: 'default' with: #('core');
 				group: 'core' with: #('Phlog' 'PhlogJs');
 				group: 'tests' with: #('Phlog' 'PhlogJs' 'Phlog-Tests');
 				yourself ]
