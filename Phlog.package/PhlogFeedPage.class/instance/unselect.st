@@ -1,3 +1,0 @@
-rendering
-unselect
-	self initContent

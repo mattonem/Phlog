@@ -1,5 +1,0 @@
-as yet unclassified
-edit: aNews
-	content := PhlogTextEditor new
-		editableContent: aNews;
-		callback: self

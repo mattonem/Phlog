@@ -1,3 +1,0 @@
-private
-asFilename: aString 
-	^ aString 
